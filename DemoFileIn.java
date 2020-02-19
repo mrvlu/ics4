@@ -21,7 +21,7 @@ public class DemoFileIn {
   BufferedReader infile = new BufferedReader (new FileReader("ICS4U101.txt"));
   
   // reading from a URL
-  //String website="http://download.finance.yahoo.com/d/quotes.csv?s=AAPL&f=sl1d1t1c1ohgv&e=.csv";
+  //String website="https://www.alphavantage.co/query?function=DIGITAL_CURRENCY_DAILY&symbol=BTC&market=CNY&apikey=demo&datatype=csv";
    
   //BufferedReader infile = new BufferedReader (new InputStreamReader((new URL(website).openConnection()).getInputStream()));
 
