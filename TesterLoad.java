@@ -21,13 +21,7 @@ public class TesterLoad{
 		   FileInputStream fin = new FileInputStream("save.ser");
 		   ObjectInputStream ois = new ObjectInputStream(fin);
 		   hero = (Tank) ois.readObject();
-		   System.out.println(hero);
-
-		   hero = (Tank) ois.readObject();
-		   System.out.println(hero);
-
 		   ois.close();
-		   
  
 		   return hero;
  
